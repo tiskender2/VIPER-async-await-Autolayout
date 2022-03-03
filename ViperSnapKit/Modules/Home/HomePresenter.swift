@@ -20,7 +20,7 @@ protocol HomePresenterProtocol: AnyObject {
 }
 
 final class HomePresenter {
-    weak var view: HomeView?
+    weak var view: HomeViewProtocol?
     private var interactor: HomeInteractorProtocol
     private var router: HomeRouterProtocol
     
