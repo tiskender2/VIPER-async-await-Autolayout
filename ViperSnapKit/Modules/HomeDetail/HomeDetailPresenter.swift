@@ -14,7 +14,7 @@ protocol HomeDetailPresenterProtocol: AnyObject {
 }
 
 final class HomeDetailPresenter {
-    weak var view: HomeDetailView?
+    weak var view: HomeDetailViewProtocol?
     private var interactor:  HomeDetailInteractorProtocol
     private var router:  HomeDetailRouterProtocol
     
