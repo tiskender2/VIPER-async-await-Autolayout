@@ -6,7 +6,7 @@
 //
 
 import UIKit
-protocol HomeDetailViewProtocol {
+protocol HomeDetailViewProtocol: AnyObject {
     var episode: Episode? { get set }
     func setData()
     
