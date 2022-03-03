@@ -8,7 +8,7 @@
 import UIKit
 import SnapKit
 
-protocol HomeViewProtocol: HomeViewProtocol {
+protocol HomeViewProtocol: AnyObject {
     func reload()
     
     init(presenter: HomePresenterProtocol)
